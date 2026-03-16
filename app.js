@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (loadingScreen && loadingBar && loadingPercent) {
         // Simulate loading progress over 2.5 seconds
         let progress = 0;
-        const duration = 2500; // 2.5 seconds
+        const duration = 1500; // 2.5 seconds
         const interval = 30; // update every 30ms
         const steps = duration / interval;
         const increment = 100 / steps;
