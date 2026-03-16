@@ -8,7 +8,7 @@ const HELIUS_RPC = 'https://mainnet.helius-rpc.com/?api-key=bfcf5be8-dc1e-4ea9-9
 const SOLSCAN_URL = `https://solscan.io/account/${TREASURY_ADDRESS}`;
 
 // Gateway WebSocket connection for terminal
-const GATEWAY_WS_URL = 'wss://projects-teeth-transition-paradise.trycloudflare.com';
+const GATEWAY_WS_URL = 'wss://wind-course-pound-cia.trycloudflare.com';
 const GATEWAY_TOKEN = '17e7993e22f9880eb7560b53ec3d25c884948a82148565db'; // from openclaw.json
 
 // State
