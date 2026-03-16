@@ -9,7 +9,7 @@ const SOLSCAN_URL = `https://solscan.io/account/${TREASURY_ADDRESS}`;
 
 // Gateway WebSocket connection for terminal
 const GATEWAY_WS_URL = 'ws://headquarters-bidder-introductory-power.trycloudflare.com';
-const GATEWAY_TOKEN = '17e7993e22f9880eb7560b53ec3d25c884948a82148565db'; // from openclaw.json
+const GATEWAY_TOKEN = '*'; // from openclaw.json
 
 // State
 let currentBalance = 0;
