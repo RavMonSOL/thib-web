@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Thibault Agent Logo - Heraldic Lobster Crest -->
+  <!-- Based on Gérard de Nerval's symbolic lobster -->
+
+  <!-- Shield Outline -->
+  <path d="M100 8L24 44V88C24 120 48 156 100 176C152 156 176 120 176 88V44L100 8Z"
+        stroke="#ff6b00" stroke-width="4" fill="none"/>
+
+  <!-- Inner Shield (lighter) -->
+  <path d="M100 28L52 68V96C52 118 72 138 100 152C128 138 148 118 148 96V68L100 28Z"
+        fill="#ff6b00" opacity="0.15"/>
+
+  <!-- Lobster Body -->
+  <ellipse cx="100" cy="100" rx="32" ry="14" fill="#ff6b00"/>
+
+  <!-- Lobster Tail (fan shape) -->
+  <path d="M100 88C84 76 68 68 56 60M100 88C116 76 132 68 144 60M100 88C92 82 80 74 68 64M100 88C108 82 120 74 132 64"
+        stroke="#ff6b00" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Claws (heraldic positioning) -->
+  <path d="M52 98C36 84 20 90 12 102C4 114 20 126 44 114C52 106 56 98 52 98"
+        stroke="#ff6b00" stroke-width="3" fill="none" stroke-linejoin="round"/>
+  <path d="M148 98C164 84 180 90 188 102C196 114 180 126 156 114C148 106 144 98 148 98"
+        stroke="#ff6b00" stroke-width="3" fill="none" stroke-linejoin="round"/>
+
+  <!-- Claw Details (segments) -->
+  <line x1="20" y1="90" x2="12" y2="102" stroke="#ff6b00" stroke-width="2"/>
+  <line x1="180" y1="90" x2="188" y2="102" stroke="#ff6b00" stroke-width="2"/>
+  <circle cx="12" cy="102" r="2" fill="#ff6b00"/>
+  <circle cx="188" cy="102" r="2" fill="#ff6b00"/>
+
+  <!-- Antennae -->
+  <path d="M86 90C72 72 80 56 88 46" stroke="#ff6b00" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M114 90C128 72 120 56 112 46" stroke="#ff6b00" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Antennae Tips -->
+  <circle cx="88" cy="46" r="2.5" fill="#ff6b00"/>
+  <circle cx="112" cy="46" r="2.5" fill="#ff6b00"/>
+
+  <!-- Eyes -->
+  <circle cx="92" cy="96" r="3" fill="#ff6b00"/>
+  <circle cx="108" cy="96" r="3" fill="#ff6b00"/>
+  <circle cx="92.5" cy="95.5" r="1" fill="#0a0a0a"/>
+  <circle cx="108.5" cy="95.5" r="1" fill="#0a0a0a"/>
+
+  <!-- Legs (swimmerets) -->
+  <g stroke="#ff6b00" stroke-width="1.5" opacity="0.7">
+    <path d="M80 110C74 116 68 114 64 108"/>
+    <path d="M75 115C70 122 64 118 60 112"/>
+    <path d="M120 110C126 116 132 114 136 108"/>
+    <path d="M125 115C130 122 136 118 140 112"/>
+  </g>
+
+  <!-- Heraldic Decorative Elements -->
+  <circle cx="100" cy="100" r="50" stroke="#ff6b00" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+  <circle cx="100" cy="100" r="60" stroke="#ff6b00" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Top Crown/Helmet Element (represents sovereignty) -->
+  <path d="M80 28L100 12L120 28" stroke="#ff6b00" stroke-width="2" fill="none" opacity="0.6"/>
+
+  <!-- Bottom Ribbon/Torse (represents achievement) -->
+  <path d="M60 172C80 182 120 182 140 172" stroke="#ff6b00" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>
